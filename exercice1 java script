@@ -1,0 +1,10 @@
+let A = parseFloat(prompt("Entrez le premier nombre :"));
+let B = parseFloat(prompt("Entrez le deuxième nombre :"));
+console.log("Somme=" +(A+B));
+console.log("Différence=" +(A-B));
+console.log("Produit=" + (A*B));
+if (B !== 0){
+    console.log("Quotient = " + (A/B));
+} else {
+    console.log("Impossible de diviser par 0");
+}
